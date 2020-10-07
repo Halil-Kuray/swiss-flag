@@ -1,0 +1,43 @@
+::selection{
+  background-color: blue;
+  color: green;
+}
+*{
+  text-align: center; font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background:blue;
+}
+h1{
+  text-align: center; font-family: Arial, Helvetica, sans-serif; color: white;
+}
+.flag{
+  background-color:red;
+  margin: auto;
+  height: 1000px;
+  width: 1000px;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.w{
+  position: absolute;
+  background-color: white;
+  display: block;
+} /*check the measurements*/
+.vertical{
+  margin-top: 125px;
+  height: 750px;
+  width: 200px;
+  margin-left: 400px;
+}
+.horizontal{
+  width: 750px;
+  height: 200px;
+  margin-left: 125px;
+  margin-top: 400px;
+}
+article{
+	-webkit-box-shadow: 0 0 6px 4px black;
+	-moz-box-shadow: 0 0 6px 4px black;
+	box-shadow: 0 0 6px 4px black;
+}
